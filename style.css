@@ -1,0 +1,24 @@
+/* intuitivnejší box-sizing */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+	BARVY
+	#f5f5f5					šedé pozadí stránky
+	#629fe0					modrá čárka
+	Jedeme retro černobíle (až na tu modrou), dnes další barvy nepotřebujeme.
+
+	FONTY
+	Merriweather		základní font na stránce
+	Raleway					nadpisy a menu
+	Oba fonty jsou dostupné na Google Fonts.
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
